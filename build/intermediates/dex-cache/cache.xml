@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\360极速浏览器\WIFICamera\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\360极速浏览器\WIFICamera\app\build\intermediates\pre-dexed\debug\classes-a7073ac22010b01baae270c3741eec0ef2540784.jar" />
+    </item>
+    <item
+        jar="D:\360极速浏览器\WIFICamera\sensor\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\360极速浏览器\WIFICamera\sensor\build\intermediates\pre-dexed\debug\classes-a45bfed3552d0c614a916432b1fce19cf0802169.jar" />
+    </item>
+    <item
+        jar="C:\development\ANDROID\androidstudio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\360极速浏览器\WIFICamera\sensor\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-6fdbe9d8702cc5d3804a92a3a5befb6bcb3714fe.jar" />
+    </item>
+    <item
+        jar="D:\360极速浏览器\WIFICamera\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\360极速浏览器\WIFICamera\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-448e05f26ac0f2dea3951fa04b1a4dc7df6489c6.jar" />
+    </item>
+    <item
+        jar="D:\360极速浏览器\WIFICamera\sensor\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\360极速浏览器\WIFICamera\sensor\build\intermediates\pre-dexed\debug\classes-d8e3a29e4f5a255ec11741cedf8f1bf714012b29.jar" />
+    </item>
+    <item
+        jar="D:\360极速浏览器\WIFICamera\sensor\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\360极速浏览器\WIFICamera\sensor\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-f72a8c97d4d1809392ca75ab2268966a564c4864.jar" />
+    </item>
+
+</items>

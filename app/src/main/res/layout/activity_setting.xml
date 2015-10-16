@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_openwifi"
+            style="@style/Setting_Text"
+            android:text="开启热点" />
+
+        <TextView
+            android:id="@+id/tv_conn_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_opencamera"
+            style="@style/Setting_Text"
+            android:text="开启对方相机" />
+
+        <TextView
+            android:id="@+id/tv_look_conn"
+            style="@style/Setting_Text"
+            android:text="查看连接" />
+
+        <TextView
+            android:id="@+id/tv_file_dir"
+            style="@style/Setting_Text"
+            android:text="文件路径" />
+
+        <TextView
+            android:id="@+id/tv_about_author"
+            style="@style/Setting_Text"
+            android:text="关于作者" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+        您好，欢迎您使用我开发的WiFi相机。WiFi相机可以通过wifi控制对方的摄像头，并且可以控制拍照以及实时查看对象摄像头的图像在使用中，不会产生任何的移动流量。\n
+        要想使用该软件，您需要先点击下面的“开启热点”按钮，然后让被控制的相机连接到您开启的WiFi下。然后双方都打开该软件，在您的手机上点击打开相机，就能打开对象的相机。您可以实时查看对方相机的图片，并且可以控制对象手机拍照。\n
+        点击查看照片，您就可以查看刚刚拍到的照片。\n
+        该软件非常适合朋友外出旅游时，通过一个手机控制另一个手机，不仅可以将美景尽收手机之中，还能保证每个好友都定格在美好的画面之中，给您留下美好的回忆。\n
+        最后，衷心感谢您使用该软件，如果有什么好的主意，可以和我联系，手机号18317715116，QQ 71047293
+        " />
+    </LinearLayout>
+</ScrollView>

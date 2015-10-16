@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/360极速浏览器/WIFICamera/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">WIFI相机</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="others">别人相机</string>
+    <string name="photo">查看照片</string>
+    <string name="setting">配置</string>
+    <string name="takephoto">拍照</string>
+    <string name="yours">您的相机</string>
+    <!-- From: file:/D:/360极速浏览器/WIFICamera/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Setting_Text">
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+</resources>
