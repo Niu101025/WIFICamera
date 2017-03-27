@@ -272,10 +272,16 @@ public class HomeActivity extends TabActivity {
     }
 
 
+    /**
+     * 启动服务，android5.0后有更新
+     */
     private void connection() {
-        Intent intent = new Intent("com.deng.bindService");
+
+        Intent mIntent = new Intent();
+        mIntent.setAction("com.deng.bindService");//你定义的service的action
+        mIntent.setPackage(getPackageName());//这里你需要设置你应用的包名
         // 绑定服务 自动创建服务
-        bindService(intent, sc, Context.BIND_AUTO_CREATE);
+        bindService(mIntent, sc, Context.BIND_AUTO_CREATE);
     }
 
     @Override

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/shortcuts_icon_shake_hl" android:state_enabled="true" android:state_pressed="true"/>
-    <item android:drawable="@drawable/shortcuts_icon_shake_hl" android:state_checked="true"/>
-    <item android:drawable="@drawable/shortcuts_icon_shake"/>
-
-</selector><!-- From: file:/D:/360极速浏览器/WIFICamera/splashActivity/src/main/res/drawable/slector_shake.xml -->

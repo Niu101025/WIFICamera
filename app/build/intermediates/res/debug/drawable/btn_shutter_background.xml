@@ -3,4 +3,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/btn_camera_all_click"/>
 	<item android:drawable="@drawable/btn_camera_all"/>
 </selector>
-<!-- From: file:/D:/360极速浏览器/WIFICamera/app/src/main/res/drawable/btn_shutter_background.xml -->
+<!-- From: file:/Users/niuhongbin/Downloads/GitAndroid/WIFICamera/app/src/main/res/drawable/btn_shutter_background.xml -->

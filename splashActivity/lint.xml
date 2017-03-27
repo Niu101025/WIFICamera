@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<lint>
-    <issue id="ContentDescription" severity="ignore" />
-    <issue id="HandlerLeak" severity="ignore" />
-    <issue id="ResourceAsColor" severity="ignore" />
-    <issue id="UselessParent" severity="ignore" />
-    <issue id="ViewConstructor" severity="ignore" />
-</lint>

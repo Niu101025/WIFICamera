@@ -17,4 +17,4 @@
         android:layout_height="25dp"
         android:layout_gravity="right"
         android:src="@drawable/btn_delete" />
-</FrameLayout><!-- From: file:/D:/360极速浏览器/WIFICamera/app/src/main/res/layout/item_photo.xml -->
+</FrameLayout><!-- From: file:/Users/niuhongbin/Downloads/GitAndroid/WIFICamera/app/src/main/res/layout/item_photo.xml -->

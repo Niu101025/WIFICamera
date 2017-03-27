@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/btn_press" android:state_selected="true" />
     <item android:drawable="@drawable/btn_press" android:state_checked="true" />
     <item android:drawable="@drawable/btn_normal" />
-</selector><!-- From: file:/D:/360极速浏览器/WIFICamera/app/src/main/res/drawable/btn_bg.xml -->
+</selector><!-- From: file:/Users/niuhongbin/Downloads/GitAndroid/WIFICamera/app/src/main/res/drawable/btn_bg.xml -->

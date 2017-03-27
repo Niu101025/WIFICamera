@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="nineoldandroids">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/splashActivity/libs/nineoldandroids.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

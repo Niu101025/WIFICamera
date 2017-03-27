@@ -1,2 +1,1 @@
-include ':app', ':sensor', ':water_v2'
-include ':splashActivity'
+include ':app'

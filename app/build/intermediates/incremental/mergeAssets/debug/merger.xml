@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\360极速浏览器\WIFICamera\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="D:\360极速浏览器\WIFICamera\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="23.0.1"><source path="/Users/niuhongbin/Downloads/GitAndroid/WIFICamera/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/assets"/></dataSet><dataSet config="main"><source path="/Users/niuhongbin/Downloads/GitAndroid/WIFICamera/app/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/niuhongbin/Downloads/GitAndroid/WIFICamera/app/src/debug/assets"/></dataSet></merger>
