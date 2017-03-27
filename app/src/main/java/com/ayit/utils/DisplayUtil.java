@@ -5,53 +5,66 @@ import android.graphics.Point;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
+/**
+ * Desp.
+ *
+ * @author hongbin.niu
+ * @version 8.3.0
+ * @since 2017-03-27 16:48
+ */
+
 public class DisplayUtil {
-	private static final String TAG = "DisplayUtil";
-	/**
-	 * dip×ªpx
-	 * @param context
-	 * @param dipValue
-	 * @return
-	 */
-	public static int dip2px(Context context, float dipValue){            
-		final float scale = context.getResources().getDisplayMetrics().density;                 
-		return (int)(dipValue * scale + 0.5f);         
-	}     
-	
-	/**
-	 * px×ªdip
-	 * @param context
-	 * @param pxValue
-	 * @return
-	 */
-	public static int px2dip(Context context, float pxValue){                
-		final float scale = context.getResources().getDisplayMetrics().density;                 
-		return (int)(pxValue / scale + 0.5f);         
-	} 
-	
-	/**
-	 * »ñÈ¡ÆÁÄ»¿í¶ÈºÍ¸ß¶È£¬µ¥Î»Îªpx
-	 * @param context
-	 * @return
-	 */
-	public static Point getScreenMetrics(Context context){
-		DisplayMetrics dm =context.getResources().getDisplayMetrics();
-		int w_screen = dm.widthPixels;
-		int h_screen = dm.heightPixels;
-		Log.i(TAG, "Screen---Width = " + w_screen + " Height = " + h_screen + " densityDpi = " + dm.densityDpi);
-		return new Point(w_screen, h_screen);
-		
-	}
-	
-	/**
-	 * »ñÈ¡ÆÁÄ»³¤¿í±È
-	 * @param context
-	 * @return
-	 */
-	public static float getScreenRate(Context context){
-		Point P = getScreenMetrics(context);
-		float H = P.y;
-		float W = P.x;
-		return (H/W);
-	}
+    private static final String TAG = "DisplayUtil";
+
+    /**
+     * dipè½¬px
+     *
+     * @param context
+     * @param dipValue
+     * @return
+     */
+    public static int dip2px(Context context, float dipValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (dipValue * scale + 0.5f);
+    }
+
+    /**
+     * pxè½¬dip
+     *
+     * @param context
+     * @param pxValue
+     * @return
+     */
+    public static int px2dip(Context context, float pxValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (pxValue / scale + 0.5f);
+    }
+
+    /**
+     * è·å–å±å¹•å®½åº¦å’Œé«˜åº¦ï¼Œå•ä½ä¸ºpx
+     *
+     * @param context
+     * @return
+     */
+    public static Point getScreenMetrics(Context context) {
+        DisplayMetrics dm = context.getResources().getDisplayMetrics();
+        int w_screen = dm.widthPixels;
+        int h_screen = dm.heightPixels;
+        Log.i(TAG, "Screen---Width = " + w_screen + " Height = " + h_screen + " densityDpi = " + dm.densityDpi);
+        return new Point(w_screen, h_screen);
+
+    }
+
+    /**
+     * è·å–å±å¹•é•¿å®½æ¯”
+     *
+     * @param context
+     * @return
+     */
+    public static float getScreenRate(Context context) {
+        Point P = getScreenMetrics(context);
+        float H = P.y;
+        float W = P.x;
+        return (H / W);
+    }
 }

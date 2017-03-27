@@ -1,10 +1,5 @@
 package com.ayit.wificamera;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -31,6 +26,11 @@ import com.ayit.threads.SendDataThread;
 import com.ayit.utils.DisplayUtil;
 import com.ayit.utils.FileUtil;
 import com.ayit.utils.ImageUtil;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
 
 public class MainActivity extends Activity {
     private ServiceConnection sc = null;
